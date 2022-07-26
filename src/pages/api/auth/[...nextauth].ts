@@ -18,7 +18,8 @@ export default NextAuth({
       }
     })
   ],
-  secret: process.env.NEXT_AUTH_SECRET,
+
+  secret: process.env.SECRET,
 
   callbacks: {
     async jwt({ token, account }) {
