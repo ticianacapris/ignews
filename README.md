@@ -46,14 +46,20 @@
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/lang/en/)
 
+&nbsp;
+
 ## 🎯 O que é Arquitetura Serverless?
 * Arquitetura Serverless, ou “computação sem servidores”, é uma arquitetura de computação orientada a eventos. Sua principal proposta é permitir que as empresas de software criem e mantenham seus aplicativos web sem se preocupar com a infraestrutura em que esses aplicativos estão rodando.
 * Utilizando uma plataforma Serverless, o time de desenvolvimento da software house não precisa gerenciar a infraestrutura de servidores, como provisionamento, capacidade de processamento, sistemas de armazenamento, atualização dos servidores, entre muitas outras configurações recorrentes: todas essas funções ficam a cargo do provedor cloud.
 * Com esse trabalho periférico mitigado, os desenvolvedores passam a ter mais mais tempo para se dedicar a suas funções primárias, entregando muito mais software em um mesmo período.
 * Apesar de ser a vantagem mais óbvia da arquitetura Serverless, o tempo ganho pelo dev é apenas um dos destaques da arquitetura Serverless.
 
+&nbsp;
+
 ## 👩‍💻 Static generation 
 * O HTML é gerado no momento da construção e será reutilizado a cada pedido. Esta é a abordagem ideal porque os arquivos HTML e JSON gerados são armazenados em cache pelo CDN para melhor desempenho. Há duas funções que a estrutura fornece para trabalhar com dados externos: 1) getStaticProps - Coloque seus dados externos para serem pré-renderizados aqui. 2)getStaticPaths - Obter rotas com base em dados externos. Isto tem a ver com roteamento dinâmico e é usado em conjunto com getStaticProps.
+
+&nbsp;
 
 ## 👩‍💻 Server-side generation (SSR)
 * O HTML para a página é gerado em cada solicitação. getServerSideProps é a função que é usada quando o SSR é necessário para a renderização do conteúdo da página.
